@@ -5,6 +5,9 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
+.button {
+    border-style: none; 
+}
 
 .button:hover {
   background-color: var(--brand-color);
