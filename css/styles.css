@@ -1,0 +1,54 @@
+:root {
+  --brand-color: #2196f3;
+  --background-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--brand-color);
+  color: white;
+  cursor: pointer;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0, 853;
+}
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+.logo-header-begin {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0, 8519;
+  font-family: Raleway;
+}
+.logo-header-end {
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0, 8519;
+  font-family: Raleway;
+}
+.logo-footer-begin {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0, 8519;
+  font-family: Raleway;
+}
+.logo-footer-end {
+  color: #000;
+  text-decoration-line: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0, 8519;
+  font-family: Raleway;
+}
