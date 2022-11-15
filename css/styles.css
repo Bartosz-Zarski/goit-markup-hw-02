@@ -2,17 +2,19 @@
   --brand-color: #2196f3;
   --background-color: #2f303a;
   --logo-footer-color: #ffffff;
+  --black-color: #000;
+  --grey-color: #757575;
 }
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #000;
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color);
 }
-.address {
+.contact {
   background-color: var(--background-color);
   height: 252px;
 }
-.address address {
-  color: #ffffff;
+.contact address {
+  color: var(--logo-footer-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -34,57 +36,43 @@ body {
   font-size: 14px;
   line-height: 1.172;
 }
+.link-logo {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.173;
+  font-family: Raleway;
+}
+.link-logo > span {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.173;
+  font-family: Raleway;
+}
 .link:hover,
 .link:focus {
   color: var(--brand-color);
 }
 .link-start {
-  color:#757575;
+  color: var(--grey-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.172
-  }
+  line-height: 1.172;
+}
 .link-start:hover,
 .link-start:focus {
   color: var(--brand-color);
 }
 .link-footer {
-  color: #757575;
+  color: var(--grey-color);
   text-decoration: none;
 }
 .link-footer:hover,
 .link-footer:focus {
   color: var(--brand-color);
-}
-.logo-header-begin {
-  color: var(--brand-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.173;
-  font-family: Raleway;
-}
-.logo-header-end {
-  color: #000;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.173;
-  font-family: Raleway;
-}
-.logo-footer-begin {
-  color: var(--brand-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.173;
-  font-family: Raleway;
-}
-.logo-footer-end {
-  color: var(--logo-footer-color);
-  text-decoration-line: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.173;
-  font-family: Raleway;
 }
 .solutions {
   background-color: var(--background-color);
@@ -100,7 +88,7 @@ body {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
 }
-.header-2 {
+.offer-main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.171;
@@ -121,26 +109,40 @@ body {
   line-height: 1.171;
 }
 .team p {
-  color: #757575;
+  color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.171;
 }
-.address li {
+.contact li {
   color: var(--logo-footer-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
 }
-.offer h3 {
+.offer-portfolio h3 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
 }
-.offer p {
-  color: #757575;
+.offer-portfolio p {
+  color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 2.142;
+}
+.contact > a {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.173;
+  font-family: Raleway;
+}
+.contact span {
+  color: var(--logo-footer-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.173;
+  font-family: Raleway;
 }
