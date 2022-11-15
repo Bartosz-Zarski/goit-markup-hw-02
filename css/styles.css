@@ -15,7 +15,6 @@ body {
 }
 .contact address {
   color: var(--logo-footer-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
 }
@@ -99,7 +98,6 @@ body {
   line-height: 1.171;
 }
 .paragraph {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
 }
@@ -110,14 +108,12 @@ body {
 }
 .team p {
   color: var(--grey-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.171;
 }
 .contact li {
   color: var(--logo-footer-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
 }
@@ -128,7 +124,6 @@ body {
 }
 .offer-portfolio p {
   color: var(--grey-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 2.142;
 }
