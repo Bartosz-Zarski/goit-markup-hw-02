@@ -18,13 +18,13 @@ body {
   font-size: 14px;
   line-height: 1.714;
 }
-.button {
+.solutions > button {
   border-style: none;
 }
 
-.button:hover {
+.offer-nav button:hover {
   background-color: var(--brand-color);
-  color: white;
+  color: var(--logo-footer-color);
   cursor: pointer;
 }
 
@@ -83,7 +83,7 @@ body {
   font-size: 44px;
   line-height: 1.363;
 }
-.solutions .button {
+.solutions > button {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
 }
