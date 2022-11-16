@@ -22,7 +22,7 @@ body {
   border-style: none;
 }
 
-.offer-nav button:hover {
+.offer-nav button:hover, .offer-nav button:focus {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
   cursor: pointer;
