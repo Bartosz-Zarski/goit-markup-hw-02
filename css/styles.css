@@ -87,7 +87,7 @@ body {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
 }
-.solutions > button:hover {
+.solutions button:hover {
   cursor:pointer;
 }
 .offer-main {
