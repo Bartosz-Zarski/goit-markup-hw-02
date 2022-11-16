@@ -88,7 +88,7 @@ body {
   color: var(--logo-footer-color);
 }
 .solutions button:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 .offer-main {
   font-weight: 700;
