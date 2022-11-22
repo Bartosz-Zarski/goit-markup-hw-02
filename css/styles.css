@@ -83,8 +83,9 @@ body {
 .solutions button, .solutions button:hover {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
-  cursor: pointer;
+   cursor: pointer;
 }
+
 .offer-main {
   font-weight: 700;
   font-size: 36px;
